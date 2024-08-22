@@ -1,0 +1,7 @@
+{
+    "transformIgnorePatterns": [
+        "node_modules/(?!(string-width|strip-ansi|ansi-regex|test-json-import)/)"
+    ],
+    "coveragePathIgnorePatterns": ["<rootDir>/src/database", "<rootDir>/src/logger", "<rootDir>/src/queue"]
+
+}

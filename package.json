@@ -1,0 +1,24 @@
+{
+  "name": "node-database-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dockerBuild": "docker build -t node-database-template --no-cache --network host -f ./Dockerfile .",
+    "dockerRun": "docker run -p 8000:8000 node-database-template",
+    "test": "NODE_ENV=test node ./node_modules/jest/bin/jest.js --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-syntax-import-assertions": "^7.24.7",
+    "@babel/preset-env": "^7.25.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "mongoose": "^8.5.2",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
+  },
+  "type": "module"
+}
