@@ -12,8 +12,9 @@ Basic project to help developers to learn to deal with relational databases.
 
 ### Setup
 
-Node 22 (or higher)
-PostgreSQL
+- Node 22 (or higher)
+- <br>
+- PostgreSQL
 
 ### Local build
 
